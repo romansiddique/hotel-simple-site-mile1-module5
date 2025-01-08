@@ -7,6 +7,40 @@
 section{
   margin-bottom: 90px;
 }
+/*navbar*/
+.navbar {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  background-color: #000000;
+  padding: 5px 40px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 5px 50px;
+  color: rgb(246, 244, 244);
+}
+.navbar ul li a:hover{
+  color: rgb(10, 8, 8);
+  background-color: rgb(249, 37, 37);
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 1s , color 1.5s;
+}
+
+
 .hero {
   background-image: linear-gradient(360deg, rgba(9, 9, 9, 0.851) 2.884%,rgba(16, 16, 16, 0.049) 101.034%), url("../assets/hero-bg.png") ;
   background-repeat: no-repeat;
@@ -128,7 +162,7 @@ section{
   border-radius: 10px;
 }
 .card1:hover{
-  box-shadow: 5px 5px 12px gray;
+  box-shadow: 2px 2px 10px rgb(210, 209, 209);
   transition: box-shadow 2s;
 }
 .cards{
@@ -137,7 +171,6 @@ section{
   justify-content: space-evenly;
 }
 .card-section{
-  border: 1px dashed rgb(205, 203, 203);
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
@@ -193,4 +226,12 @@ section{
   font-weight: 600;
   line-height: 20px;
   text-align: center;
+}
+
+.social{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.834)), 
+  url("../assets/social-bg.png");
+  background-size: cover;
+  height: 470px;
+  border: none;
 }
