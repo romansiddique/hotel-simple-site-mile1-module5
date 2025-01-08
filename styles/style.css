@@ -61,6 +61,7 @@ section{
   padding: 20px 10px;
   border: none;
   cursor: pointer;
+  margin-top: 20px;
 }
 .hero-btn:hover{
   background-color: rgb(82, 195, 100);
@@ -71,3 +72,91 @@ section{
 }
 
 
+/* cards */
+.card-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cards .card1 img{
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+}
+.card1-description{
+  text-align: center;
+  width: 300px;
+  margin-top: 20px;
+}
+.item-name{
+  display: inline-block;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+.item-off{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 8px;
+}
+.item-description{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.card1{
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0.5px solid rgb(232, 228, 228);;
+  border-radius: 10px;
+}
+.card1:hover{
+  box-shadow: 5px 5px 12px gray;
+  transition: box-shadow 2s;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card-section{
+  border: 1px dashed rgb(205, 203, 203);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card-title1{
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-title2{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
